@@ -1,3 +1,5 @@
-export const LoginAction = (args: any[]) => {
+import { CommandArguments } from '../command-arguments';
+
+export const LoginAction = (args: CommandArguments) => {
     console.log(args);
 };
