@@ -1,0 +1,19 @@
+{
+  "name": "@auctane/connect",
+  "version": "1.0.0",
+  "description": "This is the cli for working with the auctane connect platform.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Auctane",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "prettier": "^2.6.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
