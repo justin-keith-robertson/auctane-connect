@@ -6,11 +6,13 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "lint": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\""
   },
   "keywords": [],
   "author": "Auctane",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
