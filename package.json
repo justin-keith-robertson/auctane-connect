@@ -1,6 +1,6 @@
 {
   "name": "@auctane/connect",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is the cli for working with the auctane connect platform.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,6 +13,18 @@
   "keywords": [],
   "author": "Auctane",
   "license": "Apache-2.0",
+  "bin": {
+    "auctane-connect": "bin/connect.js"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14.17.4"
+  },
+  "files": [
+    "/bin",
+    "/lib",
+    "/templates"
+  ],
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
