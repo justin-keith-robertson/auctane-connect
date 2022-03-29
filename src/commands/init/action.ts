@@ -1,5 +1,5 @@
-import { CommandArguments } from '../command-arguments';
+import { InitArguments } from './command';
 
-export const InitAction = (args: CommandArguments) => {
+export const InitAction = (args: InitArguments) => {
     console.log(args);
 };
