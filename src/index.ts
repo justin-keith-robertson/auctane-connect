@@ -13,6 +13,10 @@ import {
     TestCommand,
     VersionCommand,
     WhoAmICommand,
+    GetEnvironmentVariableCommand,
+    ListEnvironmentVariableCommand,
+    SetEnvironmentVariableCommand,
+    UnsetEnvironmentVariableCommand,
 } from './commands';
 const manifest = require('../package.json') as any;
 
@@ -35,6 +39,10 @@ program.commands.push(
     TestCommand,
     VersionCommand,
     WhoAmICommand,
+    GetEnvironmentVariableCommand,
+    ListEnvironmentVariableCommand,
+    SetEnvironmentVariableCommand,
+    UnsetEnvironmentVariableCommand,
 );
 
 program.parse();

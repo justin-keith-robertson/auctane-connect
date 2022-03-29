@@ -9,5 +9,6 @@ export * from './pack';
 export * from './publish';
 export * from './start';
 export * from './test';
-export * from './versions';
+export * from './version';
 export * from './whoami';
+export * from './environment-variables';
